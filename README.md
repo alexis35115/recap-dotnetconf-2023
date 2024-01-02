@@ -24,7 +24,7 @@ Ui fresh pour la version 17.9 à venir : <https://devblogs.microsoft.com/visuals
 
 Blog : <https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/>, <https://devblogs.microsoft.com/dotnet/announcing-csharp-12/> et <https://learn.microsoft.com/fr-fr/dotnet/core/whats-new/dotnet-8>
 
-Notons que cette version est la nouvelle LTS et aura un support de 3 ans
+Notons que cette version est la nouvelle LTS et aura un support de 3 ans.
 
 Nouvelles fonctionnalités :
 
@@ -37,8 +37,6 @@ Nouvelles fonctionnalités :
 - Adds Shuffle to Random for Arrays and Spans - <https://www.youtube.com/watch?v=hsrfLtu_cVk>
 - Ajout d'un [TimeProvider](https://learn.microsoft.com/en-us/dotnet/api/system.timeprovider?view=net-8.0) et d'une classe pour abstraire la date dans les tests [FakeTimeProvider](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.time.testing.faketimeprovider?view=dotnet-plat-ext-8.0), voici un exemple d'utilisation <https://www.roundthecode.com/dotnet-tutorials/timeprovider-easier-mock-time-dotnet-8>.
   - Plus besoin de faire une abstraction maison, on peut probablement s'attendre qu'à l'interne de Microsoft ils fond pareil, on a vu avec le temps plusieurs initiatives dans plusieurs secteurs.
-
-La liste est exhaustive, idéalement, il faut lire les "blogs".
 
 Les breaking changes <https://learn.microsoft.com/en-ca/dotnet/core/compatibility/8.0?toc=%2Fdotnet%2Ffundamentals%2Ftoc.json&bc=%2Fdotnet%2Fbreadcrumb%2Ftoc.json>.
 
